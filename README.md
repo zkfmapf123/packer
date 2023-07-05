@@ -1,5 +1,13 @@
 # Pakcer (이미지 빌드도구)
 
+## Todo
+
+- [x] nginx-ami
+- [ ] grafana-ami
+- [ ] docker-ami
+- [ ] openvpn-ami
+- [ ] side project use packer + terraform
+
 ## Execute
 
 ```
@@ -112,11 +120,12 @@
 }
 ```
 
-## Todo 1. nginx ami
+> post-processor
 
-```
-    cd packer/nginx
-```
+- 후처리기
+- provisioner 이후에 발생될 작업들을 정의한다.
+- 빌드된 내용들의 정리나... zip파일 compress작업...
+- <a href="https://developer.hashicorp.com/packer/docs/post-processors/compress">post-processor document<a>
 
 ## Reference
 
