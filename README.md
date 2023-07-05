@@ -110,3 +110,7 @@
 ```
 
 ## Todo 1. nginx ami
+
+```
+    cd packer/nginx
+```
