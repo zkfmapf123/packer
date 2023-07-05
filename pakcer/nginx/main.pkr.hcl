@@ -16,7 +16,7 @@ build {
     // 파일을 /tmp/index.html에 cp
     provisioner "file" {
         source = "${path.root}/files/index.html"
-        destination = "/tmp/index.html"
+        destination = "/tmp/index.html" // 모든 사용자가 접근가능 함 (provioner 특징 상 public한 path...)
     }
 
     provisioner "shell" {

@@ -65,6 +65,9 @@
             "source.null.two"
         ]
     }
+
+    // only
+    pakcer build --only="null.one" .
 ```
 
 > source 블록자체의 필요한 항목들을 build 블록에서 정의 가능함
@@ -114,3 +117,7 @@
 ```
     cd packer/nginx
 ```
+
+## Reference
+
+- <a href="https://developer.hashicorp.com/packer/docs/templates/json_to_hcl">Document</a>
